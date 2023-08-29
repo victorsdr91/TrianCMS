@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>$mostrar[sitename] $mostrar[pagetitle]</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="keywords" content="delegacion alumnos esii uclm politecnica albacete">
+<meta name="description" content="Delegacion de Alumos de la ESII del Campus de Albacete de la UCLM" >
+
+<!-- Codigo que pasara a fichero plantilla.css -->
+<link rel="stylesheet" type="text/css" href="./template/$mostrar[template]/css/plantilla.css">
+<link rel="stylesheet" type="text/css" href="./template/$mostrar[template]/css/general.css">
+<link rel="icon" href="./images/logo.jpg" type="image/x-jpg" />
+<script type="text/javascript" src="./template/$mostrar[template]/js/twitter.js"></script>
+$mostrar[regresar]
+
+</head>
+<body>
+$mostrar[cookies]
+	<header id="cabecera">
+		<a href="./index.php">
+			<div id="logoimg"><img src="./images/logo.jpg" class="logo" width="150" alt="logo" title="logo"></div>
+			<div id="logotxt"><b style="color:red">D</b>elegación de <b style="color:red">A</b>lumnos</div>
+			<div id="logosubtxt"><b style="color:red">E</b>scuela <b style="color:red">S</b>uperior de <b style="color:red">I</b>ngenieria <b style="color:red">I</b>nformática de <b style="color:red">A</b>lbacete</div>
+			<div class="limpiarizq"></div>
+		</a>
+		<div style="float:right">$mostrar[user]$mostrar[admin]</div>
+		<div class="limpiar_dcha"></div>
+	</header>
+	<div class="espacio"></div>
+	<aside id="menu">
+		<ul>
+			<li><a href="./">Inicio &raquo;</a></li>
+			<li><a href="#">La delegación &raquo;</a></li>
+			<li><a href="#">Actividades &raquo;</a></li>
+			<li><a href="#">Miembros &raquo;</a></li>
+			<li><a href="./users.html">Acceso &raquo;</a></li>
+		</ul>
+	</aside>
+<section id="contenido">
+		
+		<marquee >Ejemplo para el marquee....</marquee>
+
+		<!-- Barra Derecha  -->
+		<div id="sider2" >
+		<!--//Twitter//  -->
+			<a class="twitter-timeline" href="https://twitter.com/DA_ESII" data-widget-id="405694484379217920">Tweets por @DA_ESII</a>
+			
+		</div>
+
+		<!-- Contenido -->
+			<div id="bloquescentrales">	</div>
+
+		<div id="modulo">$mostrar[regresando] $mostrar[modulo]</div>
+
+		<div id="bloquesinferiores"></div>
+		
+	</section>
+	<div class="limpiartodo"></div>
+	<footer></footer>
+	
+</body>
+</html>

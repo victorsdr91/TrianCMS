@@ -1,0 +1,71 @@
+
+/*Portada*/
+
+.img_articulo{
+	border-radius: 5px;
+}
+
+.div_img_articulo{
+	float:left;
+	margin-right:10px;
+}
+
+.editar_articulo{
+	float:right;
+	margin-right:60px;
+}
+
+.escrito_por{
+	margin-top:30px;
+	font-size:14px;
+
+}
+
+.fecha_articulo{
+	text-align:right;
+	width:60%;
+	margin-top:30px;
+
+}
+
+/*GENERAL*/
+.img_avatar{
+
+	width:100px;
+	border-radius: 5px;
+
+}
+.pagina{
+	font-size:18px;
+	padding:5px;
+	background:#DADADA;
+	border-top:1px solid #777575;
+	border-bottom:1px solid #777575;
+	border-left:1px solid #777575;
+	
+	color: #FF0000;
+}
+
+.pagina:last-child{
+
+	border-right:1px solid #777575;
+}
+
+.pagina a{
+	text-decoration:none;
+	color: #777575;
+	padding:5px;
+}
+
+
+/*Edicion de perfil*/
+.label_campo {
+	float:left;
+	width:475px;
+	margin-bottom:20px;
+}
+
+.label_campo span {
+	font-size:12px;
+}
+
